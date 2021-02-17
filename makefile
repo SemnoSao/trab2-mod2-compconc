@@ -8,6 +8,7 @@ all: quicksort quicksortconc
 	@./quicksortconc 0 1000000 entradaG.txt 4
 	@./quicksortconc 0 1000000 entradaG.txt 8
 	@echo "##########################################################"
+	@rm quicksort quicksortconc
 	
 quicksort: quickSort.c
 	@gcc quickSort.c -o quicksort

@@ -3,8 +3,7 @@
 #include <pthread.h>
 #include "timer.h"
 
-
-#define MAX_BUFFER_SIZE 1000000
+#define MAX_BUFFER_SIZE 100
 
 pthread_mutex_t mutex;				
 pthread_cond_t cond_populado;	// informa que o buffer está populado
